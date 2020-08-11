@@ -1,6 +1,6 @@
 .wrapper {
     width: 600px;
-    height: 250px;
+    height: 220px;
     margin: 0 auto;
     padding-top: 20px;
     display: flex;
@@ -10,20 +10,25 @@
 }
 .buttons {
     width: 100%;
-    height: 50px;
-    border: 1px solid grey;
+    height: 40px;
+    border: 2px solid #6c6c6c;
+    padding: 5px 10px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 .color {
-    padding: 10px;
-    border: 2px solid grey;
+    padding: 8px 15px;
+    border: 1px solid #c3c3c3;
     border-radius: 3px;
     cursor: pointer;
+    margin-right: 5px;
+    color: #474747;
+}
+.color:last-child {
+    margin-right: 0;
 }
 .color.focus {
-    background: lightblue;
+    background: #4072fe;
     color: white;
     border: none;
 }
@@ -35,18 +40,17 @@
     top: 10px;
     left: 10px;
 }
-.myclass {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .content {
     display: flex;
-    justify-content: space-between;
+    border: none;
 }
 #area {
-    width: 150px;
+    width: 225px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: f6f6f6;
 }
 .line {
     width: 300px;
@@ -56,6 +60,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: 20px;
 }
 
 #red .ui-slider-range {

@@ -20,9 +20,9 @@ $(document).ready(function () {
         slide: refreshTextColor,
         change: refreshTextColor,
     });
-    $("#red").slider("value", 240);
-    $("#green").slider("value", 240);
-    $("#blue").slider("value", 255);
+    $("#red").slider("value", 125);
+    $("#green").slider("value", 125);
+    $("#blue").slider("value", 125);
     });
 
     function refreshTextColor() {
@@ -34,7 +34,7 @@ $(document).ready(function () {
     }
 
     $("#buttons")
-    .children()
+    .children('button')
     .click(function (e) {
         $(".focus").removeClass("focus");
         $(this).addClass("focus");
